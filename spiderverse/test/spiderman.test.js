@@ -6,10 +6,10 @@ describe("Test Suite Dummy Description", () => {
         // Quiero poder instanciar un objeto Spiderman con esta información
         const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony")
       //Validamos que funcione este código de la forma esperada
-      expect(resultOfSomething).toBe("Spiderman Sony");
-      expect(resultOfSomething).toBe(31);
-      expect(resultOfSomething).toBe("Andrew Garfield");
-      expect(resultOfSomething).toBe(2);
-      expect(resultOfSomething).toBe("Sony");
+      expect(andrewGarfield.name).toBe("Spiderman Sony");
+      expect(andrewGarfield.age).toBe(31);
+      expect(andrewGarfield.actor).toBe("Andrew Garfield");
+      expect(andrewGarfield.movies).toBe(2);
+      expect(andrewGarfield.studio).toBe("Sony");
     });
   })
