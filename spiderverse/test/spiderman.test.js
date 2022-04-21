@@ -1,3 +1,5 @@
+const Spiderman = require('./../app/spiderman')
+
 describe("Test Suite Dummy Description", () => {
     test('1) Create a spiderman object', () => {
         // Aquí escribimos el código que queremos usar tal cuál
