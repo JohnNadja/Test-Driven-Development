@@ -17,10 +17,11 @@ describe("Unit Test for Spiderman class", () => {
     test('2) Use the method getInfo()', () => {
         const tomHolland = new Spiderman("Spiderman Marvel", 25, "Tom Holland", 5, "Marvel")
       //Validamos que funcione este código de la forma esperada
-      expect(andrewGarfield.name).toBe("Spiderman Sony");
-      expect(andrewGarfield.age).toBe(25);
-      expect(andrewGarfield.actor).toBe("Andrew Garfield");
-      expect(andrewGarfield.movies).toBe(2);
-      expect(andrewGarfield.studio).toBe("Sony");
+      expect(tomHolland.name).toBe("Spiderman Marvel");
+      expect(tomHolland.age).toBe(25);
+      expect(tomHolland.actor).toBe("Tom Holland");
+      expect(tomHolland.movies).toBe(5);
+      expect(tomHolland.studio).toBe("Marvel");
+      expect(tomHolland.getInfo).toBe("Hey, I'm Tom Holland from Marvel studio")
     });
   })
